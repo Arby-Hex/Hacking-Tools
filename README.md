@@ -20,4 +20,12 @@ pkg update -y && pkg upgrade -y && pkg install python python-pip git -y && git c
 ```
 [![Chanel WhatsApp](https://img.shields.io/badge/Chanel-WhatsApp-green?logo=whatsapp)](https://whatsapp.com/channel/0029Vb6VXlNK5cDJkIjUxi17) [![TikTok](https://img.shields.io/badge/TikTok-Profile-black?logo=tiktok)](https://www.tiktok.com/@viper_exe9)[![GitHub](https://img.shields.io/badge/GitHub-Profile-black?logo=github)](https://github.com/Arby-Hex)
 
+# Screenshot Didalam Tools
 
+[![Menu Utama](https://files.catbox.moe/m5c72s.png)](https://github.com/Arby-Hex/Hacking-Tools)
+
+[![Menu Tools Free](https://files.catbox.moe/i32mx1.png)](https://github.com/Arby-Hex/Hacking-Tools)
+
+[![Menu Tools Premium](https://files.catbox.moe/5dag0h.png)](https://github.com/Arby-Hex/Hacking-Tools)
+
+> _© Arby-Hex - 2025-08-01_
