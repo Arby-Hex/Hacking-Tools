@@ -29,7 +29,7 @@ cd Hacking-Tools
 make install
 python Sec_Dmn.pyc
 ```
-> Update Biasanya Dilakukan Jika Ada Perubahan/Perbaikan Terhadap Fitur/Tampilan Yang Memilki Masalah
+> Update Biasanya Dilakukan Jika Ada Perubahan/Perbaikan Terhadap Fitur/Tampilan Yang Memilki Masalah                                                
 > Update 1.0 Date 2025 - Agu - 01
 
 [![Chanel WhatsApp](https://img.shields.io/badge/Chanel-WhatsApp-green?logo=whatsapp)](https://whatsapp.com/channel/0029Vb6VXlNK5cDJkIjUxi17) [![TikTok](https://img.shields.io/badge/TikTok-Profile-black?logo=tiktok)](https://www.tiktok.com/@viper_exe9)[![GitHub](https://img.shields.io/badge/GitHub-Profile-black?logo=github)](https://github.com/Arby-Hex)
