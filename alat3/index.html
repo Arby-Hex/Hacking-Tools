@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Love Connection 💖</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      background: black;
+      color: pink;
+      font-family: 'Pacifico', cursive;
+      overflow: hidden;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin-top: 30px;
+      animation: glow 1.5s infinite alternate;
+    }
+
+    #typing {
+      font-family: monospace;
+      font-size: 1.1em;
+      color: #ff69b4;
+      padding: 20px;
+      white-space: pre-wrap;
+      display: inline-block;
+      max-width: 90%;
+      margin-top: 20px;
+    }
+
+    #score {
+      font-family: monospace;
+      font-size: 1.2em;
+      color: #00ffcc;
+      margin-top: 10px;
+    }
+
+    .heart {
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      background: red;
+      transform: rotate(45deg);
+      animation: fall 8s linear infinite;
+      cursor: pointer;
+    }
+
+    .heart::before,
+    .heart::after {
+      content: '';
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      background: red;
+      border-radius: 50%;
+    }
+
+    .heart::before {
+      top: -10px;
+      left: 0;
+    }
+
+    .heart::after {
+      left: -10px;
+      top: 0;
+    }
+
+    @keyframes fall {
+      0% { top: -10%; opacity: 1; }
+      100% { top: 110%; opacity: 0; }
+    }
+
+    .message {
+      position: absolute;
+      color: #ff69b4;
+      font-size: 0.9em;
+      font-family: monospace;
+      animation: rise 1.5s ease-out forwards;
+    }
+
+    @keyframes rise {
+      from { opacity: 1; transform: translateY(0); }
+      to { opacity: 0; transform: translateY(-50px); }
+    }
+  </style>
+</head>
+<body>
+  <h1>💗 LOVE CONNECTION 💗</h1>
+  <div id="typing"></div>
+  <div id="score">❤️ Love Captured: 0</div>
+
+  <script>
+    // efek typing
+    const fullText = "Sedang menghubungkan hati Anda dengan seseorang yang spesial...\n\nMembangun koneksi cinta dalam diam 💞 Mohon tunggu...";
+    const typingDiv = document.getElementById("typing");
+    let idx = 0;
+    function type() {
+      if (idx < fullText.length) {
+        typingDiv.innerText += fullText.charAt(idx);
+        idx++;
+        setTimeout(type, 80);
+      }
+    }
+    type();
+
+    // sistem tangkap hati
+    let score = 0;
+    const scoreDisplay = document.getElementById("score");
+    const messages = ["You caught love 💘", "True love detected 💓", "Cupid approves 💘", "Connection matched 🔗", "Heart synced 💞"];
+
+    function spawnHeart() {
+      const heart = document.createElement("div");
+      heart.classList.add("heart");
+      heart.style.left = Math.random() * 100 + "vw";
+      heart.style.animationDuration = (3 + Math.random() * 5) + "s";
+      heart.style.opacity = Math.random();
+      document.body.appendChild(heart);
+
+      heart.addEventListener("click", () => {
+        score++;
+        scoreDisplay.textContent = `❤️ Love Captured: ${score}`;
+        const msg = document.createElement("div");
+        msg.classList.add("message");
+        msg.textContent = messages[Math.floor(Math.random() * messages.length)];
+        msg.style.left = heart.style.left;
+        msg.style.top = heart.getBoundingClientRect().top + "px";
+        document.body.appendChild(msg);
+        heart.remove();
+        setTimeout(() => msg.remove(), 1500);
+      });
+
+      setTimeout(() => heart.remove(), 8000);
+    }
+
+    setInterval(spawnHeart, 800); // terus muncul hati
+  </script>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>
