@@ -18,7 +18,7 @@ _Command Instalasi 1 Baris_
 ```bash
 pkg update -y && pkg upgrade -y && pkg install python python-pip git -y && git clone https://github.com/Arby-Hex/Hacking-Tools && cd Hacking-Tools && make install && python Sec_Dmn.pyc
 ```
-_Update Tools_
+# Update Tools
 Jangan Lakukan Update Jika Admin Tidak Menyuruh Update. Dapatkan Informasi Update Di Saluran WhatsApp
 
 ```bash
