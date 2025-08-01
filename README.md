@@ -12,11 +12,11 @@ pkg install git -y
 git clone https://github.com/Arby-Hex/Hacking-Tools
 cd Hacking-Tools
 make install
-python Sec_Dmn.py
+python Sec_Dmn.pyc
 ```
 _Command Instalasi 1 Baris_
 ```bash
-pkg update -y && pkg upgrade -y && pkg install python python-pip git -y && git clone https://github.com/Arby-Hex/Hacking-Tools && cd Hacking-Tools && make install && python Sec_Dmn.py
+pkg update -y && pkg upgrade -y && pkg install python python-pip git -y && git clone https://github.com/Arby-Hex/Hacking-Tools && cd Hacking-Tools && make install && python Sec_Dmn.pyc
 ```
 [![Chanel WhatsApp](https://img.shields.io/badge/Chanel-WhatsApp-green?logo=whatsapp)](https://whatsapp.com/channel/0029Vb6VXlNK5cDJkIjUxi17) [![TikTok](https://img.shields.io/badge/TikTok-Profile-black?logo=tiktok)](https://www.tiktok.com/@viper_exe9)[![GitHub](https://img.shields.io/badge/GitHub-Profile-black?logo=github)](https://github.com/Arby-Hex)
 
