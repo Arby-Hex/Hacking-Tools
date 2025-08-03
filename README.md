@@ -22,13 +22,15 @@ _Command Instalasi 1 Baris_
 pkg update -y && pkg upgrade -y && pkg install python python-pip git -y && git clone https://github.com/Arby-Hex/Hacking-Tools && cd Hacking-Tools && make install && python Sec_Dmn.pyc
 ```
 # Update Tools
+> Update Ini Khusus Pengguna Yang Sebelumnya Sudah Git Clone Repository Ini. Untuk Yang Pengguna Yang Sama Sekali Belum Git Clone Repository Ini Silahkan Lakukan Instalasi Di Atas
+
 _Command Update 1 Baris_
 ```bash
 cd ~/Hacking-Tools && git pull
 ```
 > Update Biasanya Dilakukan Jika Ada Perubahan/Perbaikan Terhadap Fitur/Tampilan Yang Memilki Masalah
 >                                                                                                                 
-> Update 1.0 Date 2025 - Agu - 01
+> Update 1.2 Date 2025 - Agu - 01
 
 [![Chanel WhatsApp](https://img.shields.io/badge/Chanel-WhatsApp-green?logo=whatsapp)](https://whatsapp.com/channel/0029Vb6VXlNK5cDJkIjUxi17) [![TikTok](https://img.shields.io/badge/TikTok-Profile-black?logo=tiktok)](https://www.tiktok.com/@viper_exe9)[![GitHub](https://img.shields.io/badge/GitHub-Profile-black?logo=github)](https://github.com/Arby-Hex)
 
